@@ -1,0 +1,209 @@
+@import compass
+@import compass/reset
+
+html, body
+  background-color: #000
+  height: 100%
+  padding: 0
+  margin: 0
+
+#floater
+  +float-left
+  +clearfix
+  height: 50%
+  width: 1px
+  margin-bottom: -385px
+
+#wrap
+  clear: both
+  background: image-url( "home/banner.jpg" ) no-repeat
+  background-color: #0f0f0f
+  width: 1024px
+  height: 770px
+  margin: 0 auto
+  position: relative
+
+#title-wrap
+  width: 106px
+  padding: 0 0 20px
+  position: absolute
+  bottom: 20px
+  left: 458px
+
+#title
+  padding: 0 0 20px
+
+#title-link
+  +hide-text
+  background: image-url( "sprite/copyright.png" ) no-repeat
+  display: block
+  width: 106px
+  height: 28px
+
+#contact-link
+  +hide-text
+  background: image-url( "sprite/arrow-down.png" ) no-repeat
+  display: block
+  width: 25px
+  height: 8px
+  margin: 0 auto
+
+#photographer-wrap
+  width: 267px
+  position: absolute
+  left: 385px
+  top: 436px
+
+#photographer
+  +hide-text
+  clear: both
+  background: image-url( "sprite/photographer-title.png" ) no-repeat
+  display: block
+  width: 106px
+  height: 19px
+  padding: 0 0 10px
+  margin: 0 auto
+
+.photographer-item
+  +float-left
+  padding: 0 10px
+
+.photographer-link
+  +hide-text
+  display: block
+
+#loki-tsai-link
+  background: image-url( "sprite/loki.png" ) no-repeat
+  width: 56px
+  height: 10px
+  &:hover, &:active
+    background: image-url( "sprite/loki-hover.png" ) no-repeat
+
+#minshi-jiang-link
+  background: image-url( "sprite/minshi.png" ) no-repeat
+  width: 80px
+  height: 11px
+  &:hover, &:active
+    background: image-url( "sprite/minshi-hover.png" ) no-repeat
+
+#jack-wang-link
+  background: image-url( "sprite/jack.png" ) no-repeat
+  width: 71px
+  height: 12px
+  &:hover, &:active
+    background: image-url( "sprite/jack-hover.png" ) no-repeat
+
+.side-wrap
+  background-color: #0b0b0b
+  position: absolute
+  width: 263px
+
+#artists-wrap
+  height: 64px
+  padding: 36px 0 0
+  top: 406px
+  left: 0
+
+#artists
+  +hide-text
+  background: image-url( "sprite/artists-title.png" ) no-repeat
+  width: 51px
+  height: 14px
+  padding: 0 0 10px
+  margin: 0 auto
+
+#artists-subtitle-link
+  +hide-text
+  background: image-url( "sprite/artists-subtitle.png" ) no-repeat
+  display: block
+  width: 96px
+  height: 13px
+  margin: 0 auto
+  &:hover, &:active
+    background: image-url( "sprite/artists-subtitle-hover.png" ) no-repeat
+
+#fashion-wrap
+  height: 228px
+  padding: 36px 0 0
+  top: 506px
+  left: 0
+
+#fashion
+  +hide-text
+  background: image-url( "sprite/fashion-title.png" ) no-repeat
+  width: 61px
+  height: 16px
+  padding: 0 0 10px
+  margin: 0 auto
+
+#fashion-link
+  +hide-text
+  background: image-url( "sprite/fashion-subtitle.png" ) no-repeat
+  display: block
+  width: 124px
+  height: 13px
+  margin: 0 auto
+  &:hover, &:active
+    background: image-url( "sprite/fashion-subtitle-hover.png" ) no-repeat
+
+#casting-wrap
+  height: 64px
+  padding: 36px 0 0
+  top: 406px
+  right: 0
+
+#casting
+  +hide-text
+  background: image-url( "sprite/casting-title.png" ) no-repeat
+  width: 58px
+  height: 21px
+  padding: 0 0 10px
+  margin: 0 auto
+
+#casting-subtitle-link
+  +hide-text
+  background: image-url( "sprite/casting-subtitle.png" ) no-repeat
+  display: block
+  width: 145px
+  height: 13px
+  margin: 0 auto
+  &:hover, &:active
+    background: image-url( "sprite/casting-subtitle-hover.png" ) no-repeat
+
+#film-wrap
+  height: 228px
+  padding: 36px 0 0
+  top: 506px
+  right: 0
+
+#film
+  +hide-text
+  background: image-url( "sprite/film-title.png" ) no-repeat
+  width: 34px
+  height: 17px
+  padding: 0 0 10px
+  margin: 0 auto
+
+#film-subtitle-link
+  +hide-text
+  background: image-url( "sprite/film-subtitle.png" ) no-repeat
+  display: block
+  width: 145px
+  height: 13px
+  margin: 0 auto
+  &:hover, &:active
+    background: image-url( "sprite/film-subtitle-hover.png" ) no-repeat
+
+#contact
+  display: none
+
+#contact-detail
+  +hide-text
+  background: image-url( "sprite/address.png" ) no-repeat
+  display: block
+  width: 261px
+  height: 45px
+  position: absolute
+  left: 382px
+  bottom: 170px
+
